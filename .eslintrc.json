@@ -32,7 +32,19 @@
             "style": "kebab-case"
           }
         ],
-        "indent": "error"
+        "indent": "error",
+        "semi": "error",
+        "no-console":"warn",
+        "no-duplicate-imports":"error",
+        "no-multi-spaces":"error",
+        "no-debugger":"error",
+        "camelcase":"error",
+        "eqeqeq": ["error", "always"],
+        "max-lines": ["warn", {
+            "max": 400,
+            "skipBlankLines": true,
+            "skipComments": true
+        }]
       }
     },
     {
